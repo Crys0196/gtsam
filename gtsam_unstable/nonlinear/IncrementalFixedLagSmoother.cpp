@@ -19,15 +19,13 @@
  * @date    Oct 14, 2012
  */
 
-#include <gtsam/nonlinear/IncrementalFixedLagSmoother.h>
-#include <gtsam/nonlinear/BayesTreeMarginalizationHelper.h>
+#include <gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h>
 #include <gtsam/base/debug.h>
 #include <fstream>
 #include <gtsam/nonlinear/Marginals.h>
 #include <gtsam/inference/BayesTree.h>
 #include <gtsam/linear/GaussianConditional.h>
 #include <gtsam/inference/ReverseMaximin.h>
-
 namespace gtsam
 {
 
